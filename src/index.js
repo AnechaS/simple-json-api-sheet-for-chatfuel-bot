@@ -57,8 +57,6 @@ app.post("/game", async function (req, res, next) {
       return response.json();
     });
 
-    console.log(data);
-    console.log(req.body);
     res.json({
       success: true
     });
