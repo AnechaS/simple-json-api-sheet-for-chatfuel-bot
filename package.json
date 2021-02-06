@@ -1,5 +1,5 @@
 {
-  "name": "sample-api-for-chatfuel-bot",
+  "name": "simple-json-api-sheet-for-chatfuel-bot",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",

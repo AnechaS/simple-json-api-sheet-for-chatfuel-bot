@@ -11,6 +11,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(middleware.reqOmitWithNull);
 
+app.get("/", function (req, res) {
+  res.json({ message: "Hello" });
+});
+
 app.get("/products", async function (req, res, next) {
   try {
     const data = await fetch(`${config.SHEET_API_URL}?path=/products`).then(
