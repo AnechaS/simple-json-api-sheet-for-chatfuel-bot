@@ -1,4 +1,4 @@
-# sample-api-for-chatfuel-bot
+# Simple json api Google Sheet for Chatfuel bot
 
 ## Setup Rest api google sheet
 
